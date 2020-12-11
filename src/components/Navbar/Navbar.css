@@ -1,0 +1,40 @@
+.navbar {
+    background-color: rgb(26, 26, 26);
+    height: 55px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+    border-bottom: 1px solid white
+}
+.navbar div {
+    width: 30%
+}
+.navbar a {
+    color: #4fb8fe;
+    text-decoration: none;
+    margin: 0 2%;
+    font-weight: 700;
+}
+.navbar a:hover{
+    color: #8ad0ff
+}
+.nav-home {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.navbar img {
+    width: 5rem;
+    margin: 1rem 0;
+    padding: .4rem 0
+}
+
+
+/* --- MEDIA QUERY FOR IPHONE 5 */
+@media (max-width: 320px){
+    .navbar {
+        width: 100%;
+    }
+}

@@ -1,0 +1,12 @@
+.App {
+  text-align: center;
+  background-color: rgb(126, 126, 126);
+  color:white
+}
+
+/* MEDIA QUERY FOR IPHONE 5 */
+@media (max-width: 320px){
+  .App {
+    width: 100%;
+  }
+}
