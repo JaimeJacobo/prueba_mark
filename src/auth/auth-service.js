@@ -3,7 +3,7 @@ import axios from 'axios'
 class AuthService {
     constructor() {
         let service = axios.create({
-            baseURL: 'https://prueba-mark-back.herokuapp.com/auth/',
+            baseURL: 'https://prueba-mark-back.herokuapp.com/',
             // baseURL: 'http://localhost:3000/auth',
             withCredentials: true
         })

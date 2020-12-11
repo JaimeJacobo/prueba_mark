@@ -3,7 +3,7 @@ import axios from 'axios'
 class MessageService {
     constructor() {
         let service = axios.create({
-            baseURL: 'https://prueba-mark-back.herokuapp.com/message/',
+            baseURL: 'https://prueba-mark-back.herokuapp.com/',
             // baseURL: 'http://localhost:3000/message'
         })
         this.service = service
